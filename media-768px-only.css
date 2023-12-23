@@ -1,0 +1,42 @@
+
+.nav-item{
+    margin: 42px 0;
+}
+.data-img{
+    width: 30px;
+}
+#logo{
+    height: 300px;
+}
+.container{
+    display:grid;
+    grid-template-columns: 
+        repeat(
+            auto-fit,
+            minmax(110px, 1fr)
+            );
+}
+.clothes{
+    margin-left: 5px;
+    margin-right:5px;
+}
+.container > div > img{
+    border-radius: 6%;
+    width: 100%;
+    height: auto;
+    box-shadow: 0 0 5px #020;
+    margin-top: 10px;
+}
+.precio{
+    font-size: 18px;
+}
+#contact > h2{
+    text-align: left;
+    font-size: 26px;
+    margin: 0;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    padding-left: 14px;
+    padding-right: 0;
+
+}
